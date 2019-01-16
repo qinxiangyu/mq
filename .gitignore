@@ -3,6 +3,7 @@
 
 # Log file
 *.log
+*.log.zip
 
 # BlueJ files
 *.ctxt
@@ -21,3 +22,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#idea, mac
+.idea
+.DS_Store
+*.iml
+*.ipr
+*.iws
+*.class
+target
+out
+build
+classes
+
+#local files
+*.bak
+*.local
+
+!.keep
+!.gitignore
+!.editorconfig
+!.eslintrc
+!.babelrc
